@@ -12,6 +12,7 @@
 		F10321312334A01100491F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F103212F2334A01100491F4D /* Main.storyboard */; };
 		F10321332334A01400491F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10321322334A01400491F4D /* Assets.xcassets */; };
 		F10321362334A01400491F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10321342334A01400491F4D /* LaunchScreen.storyboard */; };
+		F654320A23420969000F2878 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654320923420969000F2878 /* InstructionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F10321322334A01400491F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10321352334A01400491F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10321372334A01400491F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F654320923420969000F2878 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F103212B2334A01100491F4D /* AppDelegate.swift */,
 				F103212D2334A01100491F4D /* ViewController.swift */,
 				F103212F2334A01100491F4D /* Main.storyboard */,
+				F654320923420969000F2878 /* InstructionViewController.swift */,
 				F10321322334A01400491F4D /* Assets.xcassets */,
 				F10321342334A01400491F4D /* LaunchScreen.storyboard */,
 				F10321372334A01400491F4D /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				F103212E2334A01100491F4D /* ViewController.swift in Sources */,
 				F103212C2334A01100491F4D /* AppDelegate.swift in Sources */,
+				F654320A23420969000F2878 /* InstructionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,16 +11,21 @@ import UIKit
 class InstructionViewController: UIViewController {
 
     @IBOutlet weak var taskNameLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var taskDescriptionTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        imageView.image = UIImage(named: "honduras")
 
-        // Do any additional setup after loading the view.
     }
     
     var taskName = String()
+    var instruction = String()
 
     override func viewWillAppear(_ animated: Bool) {
         taskNameLabel.text = taskName
+        taskDescriptionTextView.text = "Task Description Goes Here"
     }
 
     /*

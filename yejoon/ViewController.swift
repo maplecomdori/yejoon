@@ -51,6 +51,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == instructionSegueIdentifier, let destination = segue.destination as? InstructionViewController, let idx = tableView.indexPathForSelectedRow?.row {
             destination.taskName = data[idx]
+            destination.instruction = "TEST INSTRUCTION TEST"
         }
     }
 }

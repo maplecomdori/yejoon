@@ -8,32 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    private var tasks : [String] = ["팀원 연락처", "아이디 & 비번", "주보 편집", "주보 접는 기계", "성찬식", "선교 헌금", "시간대 별 작업"]
+//    private var tasks : [String] = ["팀원 연락처", "아이디 & 비번", "주보 편집", "주보 접는 기계", "성찬식", "선교 헌금", "시간대 별 작업"]
 
-    let sections : [String] = ["예배 전", "예배 중", "예배 후"]
-//    var taskDictionary = [String: [String]]()
+    let sectionOrder : [String] = ["주보", "예배 중", "섹션"]
+    let sectionA : [String: [String]] = ["섹션":["테스트"]]
     
-    let sectionTaskDictionary : [String: [String]] = ["주보": ["드래프트", "접기"], "예배 중":["선교 헌금","성찬식"]]
+//    let sectionTaskList : [[String: [String]]] = [["주보": ["드래프트", "광고", "큐티", "접기", "프린트"]], ["예배 중":["선교 헌금","성찬식"]], ["섹션":["아이디 & 비번"]]]
+    let sectionTaskDictionary : [String: [String]] = ["주보": ["드래프트", "광고", "큐티", "접기", "프린트"], "예배 중":["선교 헌금","성찬식"], "섹션":["아이디 & 비번"]]
     var sectionTitles = [String]()
     
-    let instructionSegueIdentifier = "ShowInstructionSegue"
     @IBOutlet weak var tableView: UITableView!
-    
-    let testDict : [String : String] = ["주보":"주보"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        for i in  0...10 {
-//            data.append("\(i)")
-//        }
-        
+                
         tableView.dataSource = self
+        tableView.delegate = self
         
         sectionTitles = [String](sectionTaskDictionary.keys)
-        print(sectionTitles)
         
     }
     
@@ -47,7 +41,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let sectionKey = sectionTitles[section]
         if let taskValues = sectionTaskDictionary[sectionKey] {
-            print(taskValues.count)
             return taskValues.count
         }
 
@@ -80,17 +73,42 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == instructionSegueIdentifier, let destination = segue.destination as? InstructionViewController, let section = tableView.indexPathForSelectedRow?.section, let idx = tableView.indexPathForSelectedRow?.row {
+        print("prepare for segue")
+        if segue.identifier == "ShowInstructionSegue", let destination = segue.destination as? InstructionViewController, let section = tableView.indexPathForSelectedRow?.section, let idx = tableView.indexPathForSelectedRow?.row {
 //            destination.taskName = tasks[idx]
             let sectionTitle = sectionTitles[section]
-            let sectionValues = sectionTaskDictionary[sectionTitle]
-            let task = sectionValues![idx]
+            let taskListForSection = sectionTaskDictionary[sectionTitle]
+            let task = taskListForSection![idx]
             destination.taskName = task
 //            destination.taskName = sectionTaskDictionary[sectionTitles[section]][idx]
             
             destination.instruction = "TEST INSTRUCTION TEST"
-            
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("selected")
+        print("section: \(indexPath.section)")
+        print("row: \(indexPath.row)")
+        
+        let sectionIdx = tableView.indexPathForSelectedRow!.section
+        let sectionTitle = sectionTitles[sectionIdx]
+        let taskListForSection = sectionTaskDictionary[sectionTitle]
+        let task = taskListForSection![indexPath.row]
+        print("sectionTitle: \(sectionTitle)")
+        print("task: \(task)")
+        
+        if task == "아이디 & 비번" {
+            performSegue(withIdentifier: "ShowCredentialSegue", sender: nil)
+        }
+        
+        
+        
+        
+        
+    }
+    
+    
+    
 }
 

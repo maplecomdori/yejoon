@@ -101,7 +101,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if task == "아이디 & 비번" {
             performSegue(withIdentifier: "ShowCredentialSegue", sender: nil)
         }
-        
+        tableView.deselectRow(at: indexPath, animated: true)
         
         
         

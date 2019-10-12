@@ -67,9 +67,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     
-    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
-        return sectionTitles
-    }
+//    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+//        return sectionTitles
+//    }
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let sectionA : [String: [String]] = ["섹션":["테스트"]]
     
 //    let sectionTaskList : [[String: [String]]] = [["주보": ["드래프트", "광고", "큐티", "접기", "프린트"]], ["예배 중":["선교 헌금","성찬식"]], ["섹션":["아이디 & 비번"]]]
-    let sectionTaskDictionary : [String: [String]] = ["주보": ["드래프트", "광고", "큐티", "접기", "프린트"], "예배 중":["선교 헌금","성찬식"], "섹션":["아이디 & 비번"]]
+    let sectionTaskDictionary : [String: [String]] = ["주보": ["드래프트", "광고", "큐티", "접기", "프린트", "리뷰 리스트"], "예배 중":["선교 헌금","성찬식"], "섹션":["아이디 & 비번"]]
     var sectionTitles = [String]()
     
     @IBOutlet weak var tableView: UITableView!

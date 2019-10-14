@@ -109,6 +109,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
     

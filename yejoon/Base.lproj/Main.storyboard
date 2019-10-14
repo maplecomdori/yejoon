@@ -62,7 +62,7 @@
                     <connections>
                         <outlet property="tableView" destination="sOZ-uu-EpO" id="dsL-aO-snp"/>
                         <segue destination="99H-Ei-Vzb" kind="show" identifier="ShowCredentialSegue" id="PKy-2S-bgE"/>
-                        <segue destination="0Cx-2Q-Vya" kind="show" identifier="ShowQtSegue" id="gbA-Zn-2Dj"/>
+                        <segue destination="jKz-Ay-KrO" kind="show" identifier="ShowQtSegue" id="zZ9-TP-eyb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -436,54 +436,143 @@
             </objects>
             <point key="canvasLocation" x="617" y="143"/>
         </scene>
-        <!--큐티-->
-        <scene sceneID="HJ5-oM-muy">
+        <!--View Controller-->
+        <scene sceneID="850-rj-mre">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XLV-bZ-F6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="0Cx-2Q-Vya" userLabel="큐티" customClass="QTViewController" customModule="yejoon" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aKQ-AQ-Mz9">
+                <viewController id="jKz-Ay-KrO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bnH-MQ-AvS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" id="eeT-7t-PEF">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hq3-bs-teH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="vWe-eF-YET">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QT_Calendar" translatesAutoresizingMaskIntoConstraints="NO" id="7wy-Tb-Kcc">
-                                        <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
-                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UY9-Bu-tzx">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1042"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i8n-ib-vP9">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1 예준팀 폴더 확인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgS-nJ-yvT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lbr-GA-ERb">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="123.5"/>
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <string key="text">- 예준팀 폴더에 가서 해당 달(month) 큐티 pdf 파일이 있으면 거기서 참고
+
+- pdf 파일이 없으면 duranno.com 으로 가서 아래와 같이 다운 받기</string>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bhh-Bl-kXq">
+                                                <rect key="frame" x="0.0" y="204.5" width="375" height="180.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#2 duranno.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aD-8c-fZ4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="메뉴에서 &quot;큐티&quot; 클릭" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vlu-Cq-wgG">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="37.5"/>
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_menu" translatesAutoresizingMaskIntoConstraints="NO" id="SHf-4d-Qx7">
+                                                        <rect key="frame" x="0.0" y="83.5" width="375" height="97"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OJb-L6-liX">
+                                                <rect key="frame" x="0.0" y="425" width="375" height="169"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-Aq-fBg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <string key="text">로그인 하기 
+	(id: yntoronto, password: dPwnsxla8)</string>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_login" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-O0-hWV">
+                                                        <rect key="frame" x="0.0" y="64" width="375" height="105"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MjA-B8-KHm">
+                                                <rect key="frame" x="0.0" y="634" width="375" height="217.5"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="&quot;QT 캘린더&quot; 클릭" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AfG-bE-PjS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_calendar_button" translatesAutoresizingMaskIntoConstraints="NO" id="FFk-Dv-dZA">
+                                                        <rect key="frame" x="0.0" y="42.5" width="375" height="175"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-lk-IBU">
+                                                <rect key="frame" x="0.0" y="891.5" width="375" height="150.5"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="PDF 다운 버튼 클릭해서 예준팀 폴더에 다운받기" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bKr-eI-bre">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_download" translatesAutoresizingMaskIntoConstraints="NO" id="nHG-0g-4de">
+                                                        <rect key="frame" x="0.0" y="42.5" width="375" height="108"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <viewLayoutGuide key="safeArea" id="SgC-MN-FfV"/>
-                            </stackView>
+                                <constraints>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="leading" secondItem="xHv-VL-tUQ" secondAttribute="leading" id="ABr-KN-fl6"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="top" secondItem="xHv-VL-tUQ" secondAttribute="top" id="NI1-hS-xdF"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="trailing" secondItem="xHv-VL-tUQ" secondAttribute="trailing" id="S13-vb-zvh"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="bottom" secondItem="xHv-VL-tUQ" secondAttribute="bottom" id="WVr-au-mbM"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="width" secondItem="sjZ-x6-LIa" secondAttribute="width" id="cAR-bm-ONi"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xHv-VL-tUQ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="sjZ-x6-LIa"/>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="jYd-EQ-h1c"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hq3-bs-teH" firstAttribute="leading" secondItem="bnH-MQ-AvS" secondAttribute="leading" id="0DG-yI-eTK"/>
+                            <constraint firstItem="Hq3-bs-teH" firstAttribute="top" secondItem="bnH-MQ-AvS" secondAttribute="top" id="BEO-Up-g5n"/>
+                            <constraint firstAttribute="bottom" secondItem="Hq3-bs-teH" secondAttribute="bottom" id="ivX-z0-drQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Hq3-bs-teH" secondAttribute="trailing" id="mSt-nj-7S5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7MO-VQ-Bg9"/>
                     </view>
-                    <connections>
-                        <outlet property="instruction" destination="vWe-eF-YET" id="Y0f-dB-f7M"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="rzN-bd-Mj8"/>
                 </viewController>
-                <navigationItem title="QT" id="fP1-7w-jEh"/>
-                <view contentMode="scaleToFill" id="uJ1-Pn-JwH">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    <viewLayoutGuide key="safeArea" id="K4Q-Kk-vyv"/>
-                </view>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZv-2N-Rzq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-359.19999999999999" y="841.52923538230891"/>
+            <point key="canvasLocation" x="-1167.2" y="770.46476761619192"/>
         </scene>
     </scenes>
     <resources>
-        <image name="QT_Calendar" width="2124" height="1600"/>
+        <image name="qt_calendar_button" width="300" height="175"/>
+        <image name="qt_download" width="300" height="108"/>
+        <image name="qt_login" width="300" height="105"/>
+        <image name="qt_menu" width="300" height="97"/>
     </resources>
 </document>

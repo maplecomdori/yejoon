@@ -16,7 +16,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let sectionA : [String: [String]] = ["섹션":["테스트"]]
     
 //    let sectionTaskList : [[String: [String]]] = [["주보": ["드래프트", "광고", "큐티", "접기", "프린트"]], ["예배 중":["선교 헌금","성찬식"]], ["섹션":["아이디 & 비번"]]]
-    let sectionTaskDictionary : [String: [String]] = ["주보": ["드래프트", "광고", "큐티", "접기", "프린트", "리뷰 리스트"], "예배 중":["선교 헌금","성찬식"], "섹션":["아이디 & 비번"]]
+    
+    let sectionTaskDictionary : [String: [String]] = ["주보": ["아이디 & 비번", "예배 순서", "광고", "큐티", "접기", "프린트", "리뷰 리스트"], "예배":["셋업", "봉헌" ,"선교 헌금", "성찬식"]]
     var sectionTitles = [String]()
     
     @IBOutlet weak var tableView: UITableView!
@@ -28,6 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
         
         sectionTitles = [String](sectionTaskDictionary.keys)
+        sectionTitles = sectionTitles.sorted(by: { $0 > $1 })
         
     }
     
@@ -63,6 +65,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        print("section: \(section)")
         return sectionTitles[section]
     }
 
@@ -87,9 +90,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("selected")
-        print("section: \(indexPath.section)")
-        print("row: \(indexPath.row)")
+//        print("selected")
+//        print("section: \(indexPath.section)")
+//        print("row: \(indexPath.row)")
         
         let sectionIdx = tableView.indexPathForSelectedRow!.section
         let sectionTitle = sectionTitles[sectionIdx]
@@ -101,11 +104,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if task == "아이디 & 비번" {
             performSegue(withIdentifier: "ShowCredentialSegue", sender: nil)
         }
+        else if task == "큐티" {
+            performSegue(withIdentifier: "ShowQtSegue", sender: nil)
+        }
+        
+        
         tableView.deselectRow(at: indexPath, animated: true)
-        
-        
-        
-        
     }
     
     

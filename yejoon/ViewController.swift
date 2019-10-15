@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
 //    let sectionTaskList : [[String: [String]]] = [["주보": ["드래프트", "광고", "큐티", "접기", "프린트"]], ["예배 중":["선교 헌금","성찬식"]], ["섹션":["아이디 & 비번"]]]
     
-    let sectionTaskDictionary : [String: [String]] = ["주보": ["아이디 & 비번", "예배 순서", "광고", "큐티", "접기", "프린트", "리뷰 리스트"], "예배":["셋업", "봉헌" ,"선교 헌금", "성찬식"]]
+    let sectionTaskDictionary : [String: [String]] = ["주보": ["아이디 & 비번", "예배 순서", "광고", "큐티", "민들레 포커스", "목회칼럼", "접기", "프린트", "리뷰 리스트"], "예배":["예배당 셋업", "봉헌" ,"선교 헌금", "성찬식", "자리 안내 요령"]]
     var sectionTitles = [String]()
     
     @IBOutlet weak var tableView: UITableView!
@@ -107,7 +107,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else if task == "큐티" {
             performSegue(withIdentifier: "ShowQtSegue", sender: nil)
         }
-        
+        else if task == "예배당 셋업" {
+            performSegue(withIdentifier: "ShowSetupSegue", sender: nil)
+        }
+
         
         
         tableView.deselectRow(at: indexPath, animated: true)

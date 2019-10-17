@@ -64,11 +64,12 @@
                         <segue destination="99H-Ei-Vzb" kind="show" identifier="ShowCredentialSegue" id="PKy-2S-bgE"/>
                         <segue destination="jKz-Ay-KrO" kind="show" identifier="ShowQtSegue" id="zZ9-TP-eyb"/>
                         <segue destination="X4D-xF-9jo" kind="show" identifier="ShowSetupSegue" id="3eR-AC-fUW"/>
+                        <segue destination="ZVd-cd-BFk" kind="show" identifier="ShowFoldingMachineSegue" id="csd-SP-uln"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-358" y="20"/>
+            <point key="canvasLocation" x="-612" y="19"/>
         </scene>
         <!--예배당 셋업-->
         <scene sceneID="DdK-zg-Usm">
@@ -124,8 +125,8 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ql7-4E-1fo">
                                                         <rect key="frame" x="0.0" y="41" width="375" height="59"/>
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <string key="text">헌금 봉투와 펜을 예쁘게 올려놔 주세요. 
-헌금 봉투는 본당 앞 테이블에 있어요.</string>
+                                                        <string key="text">헌금봉투와 펜을 예쁘게 올려놔 주세요. 
+헌금봉투가 부족하면 본당 앞 테이블에서 더 있어요.</string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -191,12 +192,13 @@
                             <constraint firstItem="AIX-W2-isL" firstAttribute="leading" secondItem="7be-ft-57i" secondAttribute="leading" id="P0a-Wh-vZM"/>
                             <constraint firstAttribute="bottom" secondItem="AIX-W2-isL" secondAttribute="bottom" id="zwv-uM-Kgs"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="9cD-WE-8FF"/>
                     </view>
                     <navigationItem key="navigationItem" title="예배당 셋업" id="IiB-mo-BZw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fec-oX-Bri" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-359.19999999999999" y="787.55622188905556"/>
+            <point key="canvasLocation" x="-612" y="788"/>
         </scene>
         <!--아이디 & 비번-->
         <scene sceneID="cdK-Qc-V83">
@@ -510,7 +512,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zw6-qC-G8n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="372" y="788"/>
+            <point key="canvasLocation" x="759" y="788"/>
         </scene>
         <!--QT-->
         <scene sceneID="850-rj-mre">
@@ -645,6 +647,7 @@
                             <constraint firstAttribute="bottom" secondItem="Hq3-bs-teH" secondAttribute="bottom" id="ivX-z0-drQ"/>
                             <constraint firstAttribute="trailing" secondItem="Hq3-bs-teH" secondAttribute="trailing" id="mSt-nj-7S5"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="ezU-YC-Bdp"/>
                     </view>
                     <navigationItem key="navigationItem" title="QT" id="rzN-bd-Mj8"/>
                 </viewController>
@@ -652,10 +655,140 @@
             </objects>
             <point key="canvasLocation" x="-1335" y="788"/>
         </scene>
+        <!--종이 접는 기계-->
+        <scene sceneID="yOg-rA-QmO">
+            <objects>
+                <viewController id="ZVd-cd-BFk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UM8-uc-2wB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ktf-nw-Oiz">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="kSa-VV-il8">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1418.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XaM-HB-0JK">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="330"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #1 종이 넣는 법" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcc-mY-ffS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="&quot;민들레 포커스&quot;가 보이고 오른쪽에 놓이도록 종이를 넣어주세요" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Wv-9D-gAO">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="59"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_paper" translatesAutoresizingMaskIntoConstraints="NO" id="Et7-ag-UbR">
+                                                        <rect key="frame" x="0.0" y="105" width="375" height="225"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OGO-ox-wgq">
+                                                <rect key="frame" x="0.0" y="370" width="375" height="308.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #2 위에 눈금 조절" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOe-h5-XNn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="금속 부분의 밑을 빨간선에 맞춰주세요" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pmK-Et-wt3">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="37.5"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_top" translatesAutoresizingMaskIntoConstraints="NO" id="dWc-KJ-Ixc">
+                                                        <rect key="frame" x="0.0" y="83.5" width="375" height="225"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5bm-Yp-EKZ">
+                                                <rect key="frame" x="0.0" y="718.5" width="375" height="330"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #3 아래 눈금 조절" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgU-AQ-HbD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="오른쪽 부분은 &quot;주보&quot;라고 쓰여진 스티커에 맞추고 왼쪽 부분은 빨간선에 맞춰주세요" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QDu-YY-Wl0">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="59"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="9Eq-4l-LDe">
+                                                        <rect key="frame" x="0.0" y="105" width="375" height="225"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pKe-A1-FWy">
+                                                <rect key="frame" x="0.0" y="1088.5" width="375" height="330"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #4 테스트 프린트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puO-Hh-Kiu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="테스트 버튼을 누르면 두 장만 접혀서 나옴. 테스트가 잘 접혔으면 스타트 버튼 클릭." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rG2-KQ-dJa">
+                                                        <rect key="frame" x="0.0" y="41" width="375" height="59"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MVb-RR-LEx">
+                                                        <rect key="frame" x="0.0" y="105" width="375" height="225"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kSa-VV-il8" firstAttribute="bottom" secondItem="1zh-Sc-Z81" secondAttribute="bottom" id="8wk-nJ-a37"/>
+                                    <constraint firstItem="kSa-VV-il8" firstAttribute="trailing" secondItem="1zh-Sc-Z81" secondAttribute="trailing" id="cZH-Un-6fK"/>
+                                    <constraint firstItem="kSa-VV-il8" firstAttribute="width" secondItem="34E-Yf-O9O" secondAttribute="width" id="exB-j7-FTm"/>
+                                    <constraint firstItem="kSa-VV-il8" firstAttribute="top" secondItem="1zh-Sc-Z81" secondAttribute="top" id="oMK-Ft-3ll"/>
+                                    <constraint firstItem="kSa-VV-il8" firstAttribute="leading" secondItem="1zh-Sc-Z81" secondAttribute="leading" id="xlE-hu-a1U"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="1zh-Sc-Z81"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="34E-Yf-O9O"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ktf-nw-Oiz" firstAttribute="bottom" secondItem="16V-pk-8YD" secondAttribute="bottom" id="JGf-xp-SvD"/>
+                            <constraint firstItem="Ktf-nw-Oiz" firstAttribute="top" secondItem="16V-pk-8YD" secondAttribute="top" id="JsY-pj-AQ7"/>
+                            <constraint firstItem="Ktf-nw-Oiz" firstAttribute="leading" secondItem="16V-pk-8YD" secondAttribute="leading" id="kiL-an-tBH"/>
+                            <constraint firstItem="Ktf-nw-Oiz" firstAttribute="trailing" secondItem="16V-pk-8YD" secondAttribute="trailing" id="twB-lz-Ik7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="16V-pk-8YD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="종이 접는 기계" id="PGX-qh-1Ba"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4k-H1-cDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.599999999999994" y="787.55622188905556"/>
+        </scene>
     </scenes>
     <resources>
         <image name="2rows" width="300" height="225"/>
         <image name="box" width="300" height="225"/>
+        <image name="folding_machine_bottom" width="300" height="225"/>
+        <image name="folding_machine_paper" width="300" height="225"/>
+        <image name="folding_machine_top" width="300" height="225"/>
         <image name="qt_calendar_button" width="300" height="175"/>
         <image name="qt_download" width="300" height="108"/>
         <image name="qt_login" width="300" height="105"/>

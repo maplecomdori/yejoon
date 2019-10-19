@@ -65,6 +65,7 @@
                         <segue destination="jKz-Ay-KrO" kind="show" identifier="ShowQtSegue" id="zZ9-TP-eyb"/>
                         <segue destination="X4D-xF-9jo" kind="show" identifier="ShowSetupSegue" id="3eR-AC-fUW"/>
                         <segue destination="ZVd-cd-BFk" kind="show" identifier="ShowFoldingMachineSegue" id="csd-SP-uln"/>
+                        <segue destination="Eai-aG-eFa" kind="show" identifier="ShowPrintSegue" id="7oE-pl-gep"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -512,7 +513,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zw6-qC-G8n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="759" y="788"/>
+            <point key="canvasLocation" x="806" y="20"/>
         </scene>
         <!--QT-->
         <scene sceneID="850-rj-mre">
@@ -782,6 +783,113 @@
             </objects>
             <point key="canvasLocation" x="69.599999999999994" y="787.55622188905556"/>
         </scene>
+        <!--프린트-->
+        <scene sceneID="K0c-w5-9rh">
+            <objects>
+                <viewController id="Eai-aG-eFa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1OV-8T-g7A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nhx-by-ci5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WtD-Zk-uOq">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1011.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ERP-PF-jYh">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="116.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #1 프린트 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-KX-sCs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MS0-GD-O7f">
+                                                        <rect key="frame" x="0.0" y="36" width="375" height="80.5"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <string key="text">Printer name = 
+Two sided ??
+</string>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="25t-j4-oyL">
+                                                <rect key="frame" x="0.0" y="116.5" width="375" height="895"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #2 종이 방향" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDJ-uv-ySB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="종이에 컬러로 인쇄된 부분이 '나' 쪽으로 오게 넣어주세요" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UXA-8k-3da">
+                                                        <rect key="frame" x="0.0" y="36" width="375" height="59"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="printer_paper" translatesAutoresizingMaskIntoConstraints="NO" id="Qax-Cg-Fz8">
+                                                        <rect key="frame" x="0.0" y="95" width="375" height="800"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WtD-Zk-uOq" firstAttribute="top" secondItem="Rff-aa-N7U" secondAttribute="top" id="Ukh-Hi-QpA"/>
+                                    <constraint firstItem="WtD-Zk-uOq" firstAttribute="trailing" secondItem="Rff-aa-N7U" secondAttribute="trailing" id="hci-5S-dqF"/>
+                                    <constraint firstItem="WtD-Zk-uOq" firstAttribute="width" secondItem="IWh-Vp-Kcg" secondAttribute="width" id="oQc-Yk-jEk"/>
+                                    <constraint firstItem="WtD-Zk-uOq" firstAttribute="leading" secondItem="Rff-aa-N7U" secondAttribute="leading" id="oWL-Rb-x4D"/>
+                                    <constraint firstItem="WtD-Zk-uOq" firstAttribute="bottom" secondItem="Rff-aa-N7U" secondAttribute="bottom" id="rfr-6B-lGs"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Rff-aa-N7U"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="IWh-Vp-Kcg"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nhx-by-ci5" firstAttribute="top" secondItem="1OV-8T-g7A" secondAttribute="top" id="FIz-rx-mgd"/>
+                            <constraint firstItem="Nhx-by-ci5" firstAttribute="leading" secondItem="1OV-8T-g7A" secondAttribute="leading" id="YMp-p7-7rM"/>
+                            <constraint firstAttribute="bottom" secondItem="Nhx-by-ci5" secondAttribute="bottom" id="mwS-Mc-UH2"/>
+                            <constraint firstAttribute="trailing" secondItem="Nhx-by-ci5" secondAttribute="trailing" id="nZA-xN-nfF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZEZ-vj-ZlY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="프린트" id="VRI-yM-KHG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nad-Xq-rWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.60000000000002" y="787.55622188905556"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mbH-fl-bxr">
+            <objects>
+                <viewController id="HVJ-Wg-ETm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ck4-bC-Xfa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eFa-zM-dif"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oU1-vz-y3g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="pVP-E7-uuE">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="2F0-Ny-YpV"/>
+                    <viewLayoutGuide key="contentLayoutGuide" id="vY3-FZ-sFM"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="0IX-yi-ZQa"/>
+                </scrollView>
+            </objects>
+            <point key="canvasLocation" x="342" y="-678"/>
+        </scene>
     </scenes>
     <resources>
         <image name="2rows" width="300" height="225"/>
@@ -789,6 +897,7 @@
         <image name="folding_machine_bottom" width="300" height="225"/>
         <image name="folding_machine_paper" width="300" height="225"/>
         <image name="folding_machine_top" width="300" height="225"/>
+        <image name="printer_paper" width="300" height="400"/>
         <image name="qt_calendar_button" width="300" height="175"/>
         <image name="qt_download" width="300" height="108"/>
         <image name="qt_login" width="300" height="105"/>

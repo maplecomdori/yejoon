@@ -113,6 +113,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else if task == "종이 접는 기계" {
             performSegue(withIdentifier: "ShowFoldingMachineSegue", sender: nil)
         }
+        else if task == "프린트" {
+            performSegue(withIdentifier: "ShowPrintSegue", sender: nil)
+        }
 
         
         

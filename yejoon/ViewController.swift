@@ -122,6 +122,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else if task == "예배 순서" {
             performSegue(withIdentifier: "ShowServiceOrderSegue", sender: nil)
         }
+        else if task == "리뷰 리스트" {
+            performSegue(withIdentifier: "ShowReviewListSegue", sender: nil)
+        }
+
 
         
         

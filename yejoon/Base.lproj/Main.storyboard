@@ -258,7 +258,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="95"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dell 노트북" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhi-dS-WqJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="134" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -312,7 +312,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="124.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yntoronto.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iT6-Dn-sSJ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="185.5" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -569,19 +569,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UY9-Bu-tzx">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1042"/>
+                                        <rect key="frame" x="10" y="10" width="355" height="1063.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i8n-ib-vP9">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="164.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1 예준팀 폴더 확인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgS-nJ-yvT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lbr-GA-ERb">
-                                                        <rect key="frame" x="0.0" y="41" width="375" height="123.5"/>
+                                                        <rect key="frame" x="0.0" y="41" width="355" height="123.5"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <string key="text">- 예준팀 폴더에 가서 해당 달(month) 큐티 pdf 파일이 있으면 거기서 참고
 
@@ -593,31 +593,31 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bhh-Bl-kXq">
-                                                <rect key="frame" x="0.0" y="204.5" width="375" height="180.5"/>
+                                                <rect key="frame" x="0.0" y="204.5" width="355" height="180.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#2 duranno.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aD-8c-fZ4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="메뉴에서 &quot;큐티&quot; 클릭" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vlu-Cq-wgG">
-                                                        <rect key="frame" x="0.0" y="41" width="375" height="37.5"/>
+                                                        <rect key="frame" x="0.0" y="41" width="355" height="37.5"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_menu" translatesAutoresizingMaskIntoConstraints="NO" id="SHf-4d-Qx7">
-                                                        <rect key="frame" x="0.0" y="83.5" width="375" height="97"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="97"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OJb-L6-liX">
-                                                <rect key="frame" x="0.0" y="425" width="375" height="169"/>
+                                                <rect key="frame" x="0.0" y="425" width="355" height="169"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-Aq-fBg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="59"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <string key="text"> 로그인 하기 
 	(id: yntoronto, password: dPwnsxla8)</string>
@@ -626,37 +626,37 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_login" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-O0-hWV">
-                                                        <rect key="frame" x="0.0" y="64" width="375" height="105"/>
+                                                        <rect key="frame" x="0.0" y="64" width="355" height="105"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MjA-B8-KHm">
-                                                <rect key="frame" x="0.0" y="634" width="375" height="217.5"/>
+                                                <rect key="frame" x="0.0" y="634" width="355" height="217.5"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text=" &quot;QT 캘린더&quot; 클릭" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AfG-bE-PjS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="37.5"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_calendar_button" translatesAutoresizingMaskIntoConstraints="NO" id="FFk-Dv-dZA">
-                                                        <rect key="frame" x="0.0" y="42.5" width="375" height="175"/>
+                                                        <rect key="frame" x="0.0" y="42.5" width="355" height="175"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-lk-IBU">
-                                                <rect key="frame" x="0.0" y="891.5" width="375" height="150.5"/>
+                                                <rect key="frame" x="0.0" y="891.5" width="355" height="172"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text=" PDF 다운 버튼 클릭해서 예준팀 폴더에 다운받기" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bKr-eI-bre">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="59"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_download" translatesAutoresizingMaskIntoConstraints="NO" id="nHG-0g-4de">
-                                                        <rect key="frame" x="0.0" y="42.5" width="375" height="108"/>
+                                                        <rect key="frame" x="0.0" y="64" width="355" height="108"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -664,11 +664,11 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="leading" secondItem="xHv-VL-tUQ" secondAttribute="leading" id="ABr-KN-fl6"/>
-                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="top" secondItem="xHv-VL-tUQ" secondAttribute="top" id="NI1-hS-xdF"/>
-                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="trailing" secondItem="xHv-VL-tUQ" secondAttribute="trailing" id="S13-vb-zvh"/>
-                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="bottom" secondItem="xHv-VL-tUQ" secondAttribute="bottom" id="WVr-au-mbM"/>
-                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="width" secondItem="sjZ-x6-LIa" secondAttribute="width" id="cAR-bm-ONi"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="leading" secondItem="xHv-VL-tUQ" secondAttribute="leading" constant="10" id="ABr-KN-fl6"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="top" secondItem="xHv-VL-tUQ" secondAttribute="top" constant="10" id="NI1-hS-xdF"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="trailing" secondItem="xHv-VL-tUQ" secondAttribute="trailing" constant="10" id="S13-vb-zvh"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="bottom" secondItem="xHv-VL-tUQ" secondAttribute="bottom" constant="-10" id="WVr-au-mbM"/>
+                                    <constraint firstItem="UY9-Bu-tzx" firstAttribute="width" secondItem="sjZ-x6-LIa" secondAttribute="width" constant="-20" id="cAR-bm-ONi"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="xHv-VL-tUQ"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="sjZ-x6-LIa"/>
@@ -687,7 +687,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZv-2N-Rzq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1335" y="788"/>
+            <point key="canvasLocation" x="-1335.2" y="787.55622188905556"/>
         </scene>
         <!--종이 접는 기계-->
         <scene sceneID="yOg-rA-QmO">
@@ -963,41 +963,51 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ive-uS-dTb">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Gp-xHa">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1284.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-mQ-bt3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1304.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예배 순서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9k8-w4-gB1">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8YP-gM-h2g">
-                                                <rect key="frame" x="0.0" y="56" width="375" height="123.5"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">예배 순서는 카톡으로 올라 옵니다.
+                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YZe-5t-VcQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="370" height="179.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예배 순서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9k8-w4-gB1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="370" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8YP-gM-h2g">
+                                                        <rect key="frame" x="0.0" y="56" width="370" height="123.5"/>
+                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <string key="text">예배 순서는 카톡으로 올라 옵니다.
 카톡에 올라온 순서를 주보 메인 페이지에 그대로 반영해 주세요. 
 성경 구절은 대표 기도자 옆에 넣어주세요.
 찬양은 홈페이지 광고에 올라와요.</string>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yebe_order" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-pZ-60B">
-                                                <rect key="frame" x="0.0" y="199.5" width="375" height="565"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jubo" translatesAutoresizingMaskIntoConstraints="NO" id="THg-SK-U5x">
-                                                <rect key="frame" x="0.0" y="784.5" width="375" height="500"/>
-                                            </imageView>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Gp-xHa">
+                                                <rect key="frame" x="0.0" y="219.5" width="375" height="1085"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yebe_order" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-pZ-60B">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="565"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jubo" translatesAutoresizingMaskIntoConstraints="NO" id="THg-SK-U5x">
+                                                        <rect key="frame" x="0.0" y="585" width="375" height="500"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="gGA-Gp-xHa" firstAttribute="width" secondItem="RS6-G9-ynv" secondAttribute="width" id="5Xt-RN-1Yh"/>
-                                    <constraint firstItem="gGA-Gp-xHa" firstAttribute="trailing" secondItem="9eg-Za-tik" secondAttribute="trailing" id="XrU-dw-400"/>
-                                    <constraint firstItem="gGA-Gp-xHa" firstAttribute="top" secondItem="9eg-Za-tik" secondAttribute="top" id="dnD-rV-ZSX"/>
-                                    <constraint firstItem="gGA-Gp-xHa" firstAttribute="bottom" secondItem="9eg-Za-tik" secondAttribute="bottom" id="pU8-br-DUd"/>
-                                    <constraint firstItem="gGA-Gp-xHa" firstAttribute="leading" secondItem="9eg-Za-tik" secondAttribute="leading" id="rao-wN-kCu"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="leading" secondItem="9eg-Za-tik" secondAttribute="leading" id="4DG-eV-30y"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="top" secondItem="9eg-Za-tik" secondAttribute="top" id="TR1-tj-H6w"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="width" secondItem="RS6-G9-ynv" secondAttribute="width" id="dHm-yP-sbx"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="bottom" secondItem="9eg-Za-tik" secondAttribute="bottom" id="pmQ-pn-cau"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="trailing" secondItem="9eg-Za-tik" secondAttribute="trailing" id="tJd-a2-uCm"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="9eg-Za-tik"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="RS6-G9-ynv"/>
@@ -1333,7 +1343,6 @@
         <!--리뷰 리스트-->
         <scene sceneID="7Xe-5x-2LD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xl8-hN-Qgz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="리뷰 리스트" id="zBY-dG-QOb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ksa-sK-ZjT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -1488,6 +1497,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="리뷰 리스트" id="EaD-yD-VKR"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xl8-hN-Qgz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.60000000000002" y="-742.5787106446777"/>
         </scene>

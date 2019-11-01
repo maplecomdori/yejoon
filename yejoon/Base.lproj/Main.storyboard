@@ -69,6 +69,7 @@
                         <segue destination="lRU-1F-Z8a" kind="show" identifier="ShowShortcutSegue" id="fjE-g9-2vY"/>
                         <segue destination="JUX-lB-U28" kind="show" identifier="ShowServiceOrderSegue" id="sv8-jf-oS4"/>
                         <segue destination="zBY-dG-QOb" kind="show" identifier="ShowReviewListSegue" id="aNp-LP-Tbe"/>
+                        <segue destination="Ofo-Fk-8Xx" kind="show" identifier="ShowCommunionSegue" id="fdg-Gj-fX2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -258,7 +259,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="95"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dell 노트북" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhi-dS-WqJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="36"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -312,7 +313,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="124.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yntoronto.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iT6-Dn-sSJ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="185.5" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -1028,6 +1029,33 @@
             </objects>
             <point key="canvasLocation" x="1437.5999999999999" y="787.55622188905556"/>
         </scene>
+        <!--성찬식-->
+        <scene sceneID="X7a-s5-d89">
+            <objects>
+                <viewController id="Ofo-Fk-8Xx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="71j-zk-bwd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="communion" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-UG-BIL">
+                                <rect key="frame" x="10" y="54" width="355" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rw1-ni-cfk" firstAttribute="trailing" secondItem="RNh-UG-BIL" secondAttribute="trailing" constant="10" id="Inx-FL-Ry5"/>
+                            <constraint firstItem="RNh-UG-BIL" firstAttribute="leading" secondItem="Rw1-ni-cfk" secondAttribute="leading" constant="10" id="URM-AG-5au"/>
+                            <constraint firstItem="RNh-UG-BIL" firstAttribute="top" secondItem="Rw1-ni-cfk" secondAttribute="top" constant="10" id="iac-1F-x02"/>
+                            <constraint firstItem="Rw1-ni-cfk" firstAttribute="bottom" secondItem="RNh-UG-BIL" secondAttribute="bottom" constant="10" id="uRt-ml-mOW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rw1-ni-cfk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="성찬식" id="ELR-yQ-xZP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ez-Yd-bHC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="787.55622188905556"/>
+        </scene>
         <!--단축키-->
         <scene sceneID="Qmw-n2-Ugc">
             <objects>
@@ -1505,6 +1533,7 @@
     <resources>
         <image name="bag" width="375" height="500"/>
         <image name="box" width="375" height="281"/>
+        <image name="communion" width="355" height="492"/>
         <image name="envelop_table" width="375" height="281"/>
         <image name="folding_machine_bottom" width="375" height="281"/>
         <image name="folding_machine_button" width="375" height="281"/>

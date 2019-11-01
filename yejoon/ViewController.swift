@@ -125,6 +125,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else if task == "리뷰 리스트" {
             performSegue(withIdentifier: "ShowReviewListSegue", sender: nil)
         }
+        else if task == "성찬식" {
+            performSegue(withIdentifier: "ShowCommunionSegue", sender: nil)
+        }
 
 
         

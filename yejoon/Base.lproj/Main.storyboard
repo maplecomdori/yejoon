@@ -961,22 +961,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ive-uS-dTb">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="10" y="54" width="375" height="613"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-mQ-bt3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1304.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-mQ-bt3">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="1224.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YZe-5t-VcQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="370" height="179.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YZe-5t-VcQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="159.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예배 순서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9k8-w4-gB1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="370" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8YP-gM-h2g">
-                                                        <rect key="frame" x="0.0" y="56" width="370" height="123.5"/>
+                                                        <rect key="frame" x="0.0" y="36" width="354" height="123.5"/>
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <string key="text">예배 순서는 카톡으로 올라 옵니다.
 카톡에 올라온 순서를 주보 메인 페이지에 그대로 반영해 주세요. 
@@ -988,14 +988,14 @@
                                                     </textView>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Gp-xHa">
-                                                <rect key="frame" x="0.0" y="219.5" width="375" height="1085"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Gp-xHa">
+                                                <rect key="frame" x="0.0" y="159.5" width="355" height="1065"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yebe_order" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-pZ-60B">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="565"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="565"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jubo" translatesAutoresizingMaskIntoConstraints="NO" id="THg-SK-U5x">
-                                                        <rect key="frame" x="0.0" y="585" width="375" height="500"/>
+                                                        <rect key="frame" x="0.0" y="565" width="355" height="500"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -1005,7 +1005,7 @@
                                 <constraints>
                                     <constraint firstItem="JQL-mQ-bt3" firstAttribute="leading" secondItem="9eg-Za-tik" secondAttribute="leading" id="4DG-eV-30y"/>
                                     <constraint firstItem="JQL-mQ-bt3" firstAttribute="top" secondItem="9eg-Za-tik" secondAttribute="top" id="TR1-tj-H6w"/>
-                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="width" secondItem="RS6-G9-ynv" secondAttribute="width" id="dHm-yP-sbx"/>
+                                    <constraint firstItem="JQL-mQ-bt3" firstAttribute="width" secondItem="RS6-G9-ynv" secondAttribute="width" constant="-20" id="dHm-yP-sbx"/>
                                     <constraint firstItem="JQL-mQ-bt3" firstAttribute="bottom" secondItem="9eg-Za-tik" secondAttribute="bottom" id="pmQ-pn-cau"/>
                                     <constraint firstItem="JQL-mQ-bt3" firstAttribute="trailing" secondItem="9eg-Za-tik" secondAttribute="trailing" id="tJd-a2-uCm"/>
                                 </constraints>
@@ -1015,10 +1015,10 @@
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Ive-uS-dTb" firstAttribute="trailing" secondItem="wmE-pu-GbH" secondAttribute="trailing" id="70l-ev-78K"/>
-                            <constraint firstItem="Ive-uS-dTb" firstAttribute="leading" secondItem="wmE-pu-GbH" secondAttribute="leading" id="9rJ-6e-A9m"/>
+                            <constraint firstItem="Ive-uS-dTb" firstAttribute="trailing" secondItem="wmE-pu-GbH" secondAttribute="trailing" constant="10" id="70l-ev-78K"/>
+                            <constraint firstItem="Ive-uS-dTb" firstAttribute="leading" secondItem="wmE-pu-GbH" secondAttribute="leading" constant="10" id="9rJ-6e-A9m"/>
                             <constraint firstItem="Ive-uS-dTb" firstAttribute="bottom" secondItem="wmE-pu-GbH" secondAttribute="bottom" id="TyJ-Kb-LjO"/>
-                            <constraint firstItem="Ive-uS-dTb" firstAttribute="top" secondItem="wmE-pu-GbH" secondAttribute="top" id="fPg-WU-Ge2"/>
+                            <constraint firstItem="Ive-uS-dTb" firstAttribute="top" secondItem="wmE-pu-GbH" secondAttribute="top" constant="10" id="fPg-WU-Ge2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wmE-pu-GbH"/>
                     </view>

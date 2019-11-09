@@ -128,6 +128,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         else if task == "성찬식" {
             performSegue(withIdentifier: "ShowCommunionSegue", sender: nil)
         }
+        else if task == "자리 안내 요령" {
+            performSegue(withIdentifier: "ShowTipsSegue", sender: nil)
+        }
 
 
         

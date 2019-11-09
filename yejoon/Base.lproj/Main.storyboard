@@ -88,10 +88,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="DIk-KQ-Gy3">
-                                        <rect key="frame" x="10" y="10" width="355" height="4066"/>
+                                        <rect key="frame" x="10" y="10" width="355" height="2442"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tG2-jy-mkL">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="386"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="의자 두 줄 줄치기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzx-dA-HSs">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -107,12 +107,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="last_2rows" translatesAutoresizingMaskIntoConstraints="NO" id="UfT-o5-YuB">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BAH-No-6Vz">
-                                                <rect key="frame" x="0.0" y="697" width="355" height="1105"/>
+                                                <rect key="frame" x="0.0" y="416" width="355" height="605"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="헌금 주머니" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydo-Yx-pjD">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -128,12 +128,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag" translatesAutoresizingMaskIntoConstraints="NO" id="b4w-Fe-82o">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="1000"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="500"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ygi-OR-eVS">
-                                                <rect key="frame" x="0.0" y="1832" width="355" height="688.5"/>
+                                                <rect key="frame" x="0.0" y="1051" width="355" height="407.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="헌금통 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUr-jk-csT">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -151,12 +151,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box" translatesAutoresizingMaskIntoConstraints="NO" id="7NG-cC-52X">
-                                                        <rect key="frame" x="0.0" y="126.5" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="126.5" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SOn-Az-K2a">
-                                                <rect key="frame" x="0.0" y="2550.5" width="355" height="667"/>
+                                                <rect key="frame" x="0.0" y="1488.5" width="355" height="386"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="헌금봉투" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB2-li-YOm">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -172,12 +172,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelop_table" translatesAutoresizingMaskIntoConstraints="NO" id="0tt-Wa-jXy">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mhm-MK-XFl">
-                                                <rect key="frame" x="0.0" y="3247.5" width="355" height="645.5"/>
+                                                <rect key="frame" x="0.0" y="1904.5" width="355" height="364.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="봉헌 테이블 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PF-Ry-xZY">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -193,12 +193,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="table" translatesAutoresizingMaskIntoConstraints="NO" id="PX8-A7-KCc">
-                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sgv-G2-sdG">
-                                                <rect key="frame" x="0.0" y="3923" width="355" height="143"/>
+                                                <rect key="frame" x="0.0" y="2299" width="355" height="143"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="의자 정리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9h-Hy-DcA">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -570,7 +570,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UY9-Bu-tzx">
-                                        <rect key="frame" x="10" y="10" width="355" height="1548.5"/>
+                                        <rect key="frame" x="10" y="10" width="355" height="1063.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="i8n-ib-vP9">
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="164.5"/>
@@ -594,7 +594,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bhh-Bl-kXq">
-                                                <rect key="frame" x="0.0" y="204.5" width="355" height="277.5"/>
+                                                <rect key="frame" x="0.0" y="204.5" width="355" height="180.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#2 duranno.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aD-8c-fZ4">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -610,12 +610,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_menu" translatesAutoresizingMaskIntoConstraints="NO" id="SHf-4d-Qx7">
-                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="194"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="97"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OJb-L6-liX">
-                                                <rect key="frame" x="0.0" y="522" width="355" height="274"/>
+                                                <rect key="frame" x="0.0" y="425" width="355" height="169"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-Aq-fBg">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="59"/>
@@ -627,12 +627,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_login" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-O0-hWV">
-                                                        <rect key="frame" x="0.0" y="64" width="355" height="210"/>
+                                                        <rect key="frame" x="0.0" y="64" width="355" height="105"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MjA-B8-KHm">
-                                                <rect key="frame" x="0.0" y="836" width="355" height="392.5"/>
+                                                <rect key="frame" x="0.0" y="634" width="355" height="217.5"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text=" &quot;QT 캘린더&quot; 클릭" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AfG-bE-PjS">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="37.5"/>
@@ -642,12 +642,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_calendar_button" translatesAutoresizingMaskIntoConstraints="NO" id="FFk-Dv-dZA">
-                                                        <rect key="frame" x="0.0" y="42.5" width="355" height="350"/>
+                                                        <rect key="frame" x="0.0" y="42.5" width="355" height="175"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-lk-IBU">
-                                                <rect key="frame" x="0.0" y="1268.5" width="355" height="280"/>
+                                                <rect key="frame" x="0.0" y="891.5" width="355" height="172"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text=" PDF 다운 버튼 클릭해서 예준팀 폴더에 다운받기" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bKr-eI-bre">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="59"/>
@@ -657,7 +657,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qt_download" translatesAutoresizingMaskIntoConstraints="NO" id="nHG-0g-4de">
-                                                        <rect key="frame" x="0.0" y="64" width="355" height="216"/>
+                                                        <rect key="frame" x="0.0" y="64" width="355" height="108"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -702,10 +702,10 @@
                                 <rect key="frame" x="10" y="54" width="375" height="613"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="kSa-VV-il8">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="3435"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="2060"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XaM-HB-0JK">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="628.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="377.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #1 종이 넣는 법" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcc-mY-ffS">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -721,12 +721,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_paper" translatesAutoresizingMaskIntoConstraints="NO" id="Et7-ag-UbR">
-                                                        <rect key="frame" x="0.0" y="126.5" width="355" height="502"/>
+                                                        <rect key="frame" x="0.0" y="126.5" width="355" height="251"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OGO-ox-wgq">
-                                                <rect key="frame" x="0.0" y="668.5" width="355" height="645.5"/>
+                                                <rect key="frame" x="0.0" y="417.5" width="355" height="364.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #2 위에 눈금 조절" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOe-h5-XNn">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -742,12 +742,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_top" translatesAutoresizingMaskIntoConstraints="NO" id="dWc-KJ-Ixc">
-                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="83.5" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5bm-Yp-EKZ">
-                                                <rect key="frame" x="0.0" y="1354" width="355" height="667"/>
+                                                <rect key="frame" x="0.0" y="822" width="355" height="386"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #3 아래 눈금 조절" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgU-AQ-HbD">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -763,12 +763,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="9Eq-4l-LDe">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pKe-A1-FWy">
-                                                <rect key="frame" x="0.0" y="2061" width="355" height="667"/>
+                                                <rect key="frame" x="0.0" y="1248" width="355" height="386"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #4 테스트 프린트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puO-Hh-Kiu">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -784,12 +784,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_button" translatesAutoresizingMaskIntoConstraints="NO" id="D3h-NT-yIY">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RXd-LP-QbQ">
-                                                <rect key="frame" x="0.0" y="2768" width="355" height="667"/>
+                                                <rect key="frame" x="0.0" y="1674" width="355" height="386"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" #5 정리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXa-KV-9WK">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -805,7 +805,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folding_machine_cleanup" translatesAutoresizingMaskIntoConstraints="NO" id="GLi-Ng-aMh">
-                                                        <rect key="frame" x="0.0" y="105" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="105" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -850,10 +850,10 @@
                                 <rect key="frame" x="10" y="54" width="375" height="613"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="WtD-Zk-uOq">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="2676.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="1531.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ERP-PF-jYh">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="983"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="539"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="양면 프린트 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-KX-sCs">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -869,12 +869,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="print_two_sided_flip_short_side" translatesAutoresizingMaskIntoConstraints="NO" id="1a5-VP-HFj">
-                                                        <rect key="frame" x="0.0" y="95" width="355" height="888"/>
+                                                        <rect key="frame" x="0.0" y="95" width="355" height="444"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wOi-SQ-1E4">
-                                                <rect key="frame" x="0.0" y="1023" width="355" height="956.5"/>
+                                                <rect key="frame" x="0.0" y="579" width="355" height="536.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="프린트 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwP-Iw-cAK">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -893,12 +893,12 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="printer_name" translatesAutoresizingMaskIntoConstraints="NO" id="JpI-Og-SyU">
-                                                        <rect key="frame" x="0.0" y="116.5" width="355" height="840"/>
+                                                        <rect key="frame" x="0.0" y="116.5" width="355" height="420"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="25t-j4-oyL">
-                                                <rect key="frame" x="0.0" y="2019.5" width="355" height="657"/>
+                                                <rect key="frame" x="0.0" y="1155.5" width="355" height="376"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="종이 넣는 방향" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDJ-uv-ySB">
                                                         <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -914,7 +914,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="printer_paper" translatesAutoresizingMaskIntoConstraints="NO" id="Qax-Cg-Fz8">
-                                                        <rect key="frame" x="0.0" y="95" width="355" height="562"/>
+                                                        <rect key="frame" x="0.0" y="95" width="355" height="281"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -959,7 +959,7 @@
                                 <rect key="frame" x="10" y="54" width="375" height="613"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-mQ-bt3">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="2332.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="1267.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YZe-5t-VcQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="354" height="202.5"/>
@@ -984,13 +984,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Gp-xHa">
-                                                <rect key="frame" x="0.0" y="202.5" width="355" height="2130"/>
+                                                <rect key="frame" x="0.0" y="202.5" width="355" height="1065"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yebe_order" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-pZ-60B">
-                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="1130"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="565"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jubo" translatesAutoresizingMaskIntoConstraints="NO" id="THg-SK-U5x">
-                                                        <rect key="frame" x="0.0" y="1130" width="355" height="1000"/>
+                                                        <rect key="frame" x="0.0" y="565" width="355" height="500"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -1034,8 +1034,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndh-9l-HKe">
                                 <rect key="frame" x="10" y="54" width="355" height="623"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Bsq-HQ-gOj">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="446"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bsq-HQ-gOj">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="528"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="성찬식 순서" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDa-Fx-JtV">
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="36"/>
@@ -1044,21 +1044,20 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="communion" translatesAutoresizingMaskIntoConstraints="NO" id="YK1-Ut-5Al">
-                                                <rect key="frame" x="0.0" y="56" width="355" height="390"/>
+                                                <rect key="frame" x="0.0" y="36" width="355" height="390"/>
                                             </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="1. 그림에서 &quot;#1&quot; 이라고 표시된 두 곳에서 부터 출발 합니다. 2. 뒤에 앉는 예준팀, 방송팀, 새신자팀 3. 마지막으로 쉐마" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ChS-rh-zzj">
+                                                <rect key="frame" x="0.0" y="426" width="355" height="102"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                </accessibility>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                     </stackView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="1. 그림에서 &quot;#1&quot; 이라고 표시된 두 곳에서 부터 출발 합니다. 2. 뒤에 앉는 예준팀, 방송팀, 새신자팀 3. 마지막으로 쉐마" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ChS-rh-zzj">
-                                        <rect key="frame" x="0.0" y="454" width="355" height="132"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" notEnabled="YES"/>
-                                        </accessibility>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Bsq-HQ-gOj" firstAttribute="leading" secondItem="gNr-PW-dFb" secondAttribute="leading" id="8aH-Gu-8hB"/>

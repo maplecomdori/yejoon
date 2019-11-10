@@ -13,7 +13,6 @@
 		F10321332334A01400491F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10321322334A01400491F4D /* Assets.xcassets */; };
 		F10321362334A01400491F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10321342334A01400491F4D /* LaunchScreen.storyboard */; };
 		F654320A23420969000F2878 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654320923420969000F2878 /* InstructionViewController.swift */; };
-		F6F8E4B12346C4CF000058E7 /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F8E4B02346C4CF000058E7 /* CredentialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		F10321352334A01400491F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10321372334A01400491F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F654320923420969000F2878 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
-		F6F8E4B02346C4CF000058E7 /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 				F103212D2334A01100491F4D /* ViewController.swift */,
 				F103212F2334A01100491F4D /* Main.storyboard */,
 				F654320923420969000F2878 /* InstructionViewController.swift */,
-				F6F8E4B02346C4CF000058E7 /* CredentialViewController.swift */,
 				F10321322334A01400491F4D /* Assets.xcassets */,
 				F10321342334A01400491F4D /* LaunchScreen.storyboard */,
 				F10321372334A01400491F4D /* Info.plist */,
@@ -144,7 +141,6 @@
 				F103212E2334A01100491F4D /* ViewController.swift in Sources */,
 				F103212C2334A01100491F4D /* AppDelegate.swift in Sources */,
 				F654320A23420969000F2878 /* InstructionViewController.swift in Sources */,
-				F6F8E4B12346C4CF000058E7 /* CredentialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
